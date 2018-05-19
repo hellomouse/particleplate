@@ -1,0 +1,10 @@
+.app-paper {
+  width: 30em;
+  margin: 8px;
+  padding: 8px;
+}
+
+.app-button {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}

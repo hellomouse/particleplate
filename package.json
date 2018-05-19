@@ -1,0 +1,53 @@
+{
+  "name": "particleplate",
+  "version": "0.1.0",
+  "description": "A TypeScript+React+ReactRouter+Redux+MaterialUI+PostCSS boilerplate",
+  "main": "api/server.ts",
+  "scripts": {
+    "watch": "node ./watcher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/handicraftsman/particleplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "typescript",
+    "react",
+    "react-router",
+    "redux",
+    "material-ui",
+    "postcss"
+  ],
+  "author": "Nickolay Ilyushin <nickolay02@inbox.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/handicraftsman/particleplate/issues"
+  },
+  "homepage": "https://github.com/handicraftsman/particleplate#readme",
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.0.0",
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "autoprefixer": "^8.5.0",
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4",
+    "postcss-loader": "^2.1.5",
+    "precss": "^3.1.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.8.3"
+  }
+}
