@@ -12,7 +12,8 @@ RUN npm install
 
 RUN npm run build
 
-#CMD ["ls"]
+WORKDIR /usr/src/app/build
+
 CMD ["npm", "run", "start"]
 
 EXPOSE 8080
