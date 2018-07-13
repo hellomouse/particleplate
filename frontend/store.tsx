@@ -21,8 +21,6 @@ const store = Redux.createStore((state: State, action: Action): State => {
     return { ...state, counter: state.counter - 1 };
   }
   return state;
-}, {
-  counter: 0
-});
+}, defaultState);
 
 export default store;
