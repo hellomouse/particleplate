@@ -16,7 +16,7 @@ every single library.
 
 When you want to build a large scalable (backend-side) app.
 In such case you should choose something else or modify this boilerplate
-to remove it's API server.
+to remove its API server.
 
 ## What else?
 
