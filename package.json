@@ -2,7 +2,7 @@
   "name": "particleplate",
   "version": "0.1.0",
   "description": "A TypeScript+React+ReactRouter+Redux+MaterialUI+PostCSS boilerplate",
-  "main": "api/server.ts",
+  "main": "api/server.js",
   "scripts": {
     "watch": "node ./watcher.js",
     "build": "node ./build.js",
