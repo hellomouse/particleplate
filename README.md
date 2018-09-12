@@ -18,6 +18,11 @@ When you want to build a large scalable (backend-side) app.
 In such case you should choose something else or modify this boilerplate
 to remove it's API server.
 
+## Regarding Docker
+
+I am not going to update Docker images on DockerHub as this takes too much time for my pc
+and my HDD is currently dying.
+
 ## What else?
 
 This boilerplate was created for myself and [hellomouse](https://github.com/hellomouse) org.

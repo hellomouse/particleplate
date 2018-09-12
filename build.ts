@@ -1,16 +1,11 @@
-const spawn = require('child_process').spawn;
-const fs = require('fs-extra');
+import { spawn } from 'child_process';
+import * as fs from 'fs-extra';
 
-new Promise((res, rej) => {
-  let prc = spawn('npx', ['webpack', '--mode', 'production']);
+new Promise<number>((res, rej) => {
+  let prc = spawn('npx', ['webpack', '--mode', 'production'], { stdio: 'inherit' });
   prc.stdout.setEncoding('utf8');
   prc.on('close', (code) => {
     (code == 0 ? res : rej)(code);
-  });
-  prc.stdout.on('data', function (data) {
-    let str = data.toString()
-    let lines = str.split(/(\r?\n)/g);
-    process.stdout.write(lines.join(''));
   });
 }).then(() => {
   if (fs.existsSync('./build')) {
