@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "8.3"
+  - "lts/*"
+  - "node"
+before_install:
+  - npm i -g npm@latest
+  - npm install -g greenkeeper-lockfile
+install: npm i
+script:
+- npm run build
+- echo $TRAVIS_NODE_VERSION
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
+cache:
+  directories:
+    - "node_modules"
