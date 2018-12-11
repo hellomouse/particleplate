@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
     return (
       <Paper className="app-paper">
         <Typography component="p">Counter: {(this.props as any).counter}</Typography>
-        <Button className="app-button" variant="raised" color="primary" onClick={this.increment}>+</Button>
+        <Button className="app-button" variant="contained" color="primary" onClick={this.increment}>+</Button>
         <Button className="app-button" variant="outlined" color="primary" onClick={this.decrement}>-</Button>
       </Paper>
     );
