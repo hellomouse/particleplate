@@ -29,7 +29,7 @@
   "homepage": "https://github.com/handicraftsman/particleplate#readme",
   "dependencies": {
     "@types/es6-promise": "^3.3.0",
-    "@types/express": "^4.16.1",
+    "@types/express": "^4.17.6",
     "@types/fs-extra": "^5.0.5",
     "express": "^4.16.4",
     "fs-extra": "^7.0.1",
