@@ -1,6 +1,6 @@
 # ParticlePlate
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/hellomouse/particleplate.svg)](https://greenkeeper.io/)
+
 
 ## What is it
 
